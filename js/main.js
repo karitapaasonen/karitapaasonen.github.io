@@ -16,98 +16,96 @@
 //
 // });
 
-$(document).ready(function() {
-
-	var height = $(window).height();
-
-	$('header').css({
-		"height" : height
-	});
-
-
-	$(window).scroll(function(){
-     var top = $(this).scrollTop();
-     if(top > 150){
-         $('nav').addClass('nav-upper');
-     } else {
-     		$('nav').removeClass('nav-upper');
-     }
-});
+// $(document).ready(function() {
+//
+// 	var height = $(window).height();
+//
+//
+//
+// });
 
 
-
-
-	$('#collection').click(function() {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-
-			var height = $(window).height();
-
-			$('header').css({
-				"height" : height
-			});
-
-			$('.collection-article').css("visibility", "visible");
-			$('.current').css("visibility", "hidden");
-			$('.current').removeClass("current");
-			$('.collection-article').addClass("current");
-
-			$('body').css({
-				"overflow" : "visible"
-			});
-
-
-
-	});
-
-	$('#textile').click(function() {
-		$('body,html').animate({
-			scrollTop: 0
-		}, 800);
-
-		var height = $(window).height();
-
-		$('header').css({
-			"height" : height
-		});
-
-
-		$('.textile-article').css("visibility", "visible");
-		$('.current').css("visibility", "hidden");
-		$('.current').removeClass("current");
-		$('.textile-article').addClass("current");
-
-		$('body').css({
-			"overflow" : "visible"
-		});
-
-
-
-	});
-
-	$('#about').click(function() {
-		$('body,html').animate({
-			scrollTop: 0
-		}, 800);
-
-		$('header').css({
-			"height" : 200
-		});
-
-		$('.about-article').css("visibility", "visible");
-		$('.current').css("visibility", "hidden");
-		$('.current').removeClass("current");
-		$('.about-article').addClass("current");
-
-		$('body').css({
-			"overflow" : "hidden"
-		});
-
-	});
-
+$(document).ready(function(){
 
 });
+
+
+
+
+
+
+
+// 	$('#collection').click(function() {
+// 			$('body,html').animate({
+// 				scrollTop: 0
+// 			}, 800);
+//
+// 			var height = $(window).height();
+//
+// 			$('header').css({
+// 				"height" : height
+// 			});
+//
+// 			$('.collection-article').css("visibility", "visible");
+// 			$('.current').css("visibility", "hidden");
+// 			$('.current').removeClass("current");
+// 			$('.collection-article').addClass("current");
+//
+// 			$('body').css({
+// 				"overflow" : "visible"
+// 			});
+//
+//
+//
+// 	});
+//
+// 	$('#textile').click(function() {
+// 		$('body,html').animate({
+// 			scrollTop: 0
+// 		}, 800);
+//
+// 		var height = $(window).height();
+//
+// 		$('header').css({
+// 			"height" : height
+// 		});
+//
+//
+// 		$('.textile-article').css("visibility", "visible");
+// 		$('.current').css("visibility", "hidden");
+// 		$('.current').removeClass("current");
+// 		$('.textile-article').addClass("current");
+//
+// 		$('body').css({
+// 			"overflow" : "visible"
+// 		});
+//
+//
+//
+// 	});
+//
+// 	$('#about').click(function() {
+// 		$('body,html').animate({
+// 			scrollTop: 0
+// 		}, 800);
+//
+// 		$('header').css({
+// 			"height" : 200
+// 		});
+//
+// 		$('.about-article').css("visibility", "visible");
+// 		$('.current').css("visibility", "hidden");
+// 		$('.current').removeClass("current");
+// 		$('.about-article').addClass("current");
+//
+// 		$('body').css({
+// 			"overflow" : "hidden"
+// 		});
+//
+// 	});
+//
+//
+// });
 
 
 /*function randomWidth(){
