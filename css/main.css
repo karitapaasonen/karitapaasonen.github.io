@@ -31,9 +31,7 @@ body {
 header {
 
 	padding-top: 4em;
-
 	display: block;
-
 	margin-left: auto;
 	margin-right: auto;
 
@@ -177,6 +175,7 @@ img {
 @media screen and (max-width : 600px){
 	header h1 {
 		font-size: 2.5em;
+		margin-bottom: -20px;
 	}
 
 
@@ -185,10 +184,11 @@ img {
 @media screen and (max-width : 940px){
 
 
-	#contact {
+	#contact, .divider{
 		padding-left: 20px;
-		padding-right:
+		padding-right: 20px;
 	}
+
 }
 
 
